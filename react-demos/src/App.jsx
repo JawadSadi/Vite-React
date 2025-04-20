@@ -6,6 +6,8 @@ import WelcomeMessage from "./components/WelcomeMessage";
 import JsxRules from "./components/JsxRules";
 import Greeting from "./components/Greeting";
 import ProductInfo from "./components/ProductInfo";
+import ProductList from "./components/ProductList";
+import UserList from "./components/UserList";
 
 // First Trainning
 
@@ -44,13 +46,14 @@ import ProductInfo from "./components/ProductInfo";
 //   );
 // };
 
+// Showing the List by map
 const App = () => {
   return (
     <div>
-      <h1>USER</h1>
-      <Greeting />
-      <h1>Product</h1>
-      <ProductInfo />
+      <h1>USERS Info</h1>
+      <UserList />
+      <h1>Products Info</h1>
+      <ProductList />
     </div>
   );
 };
