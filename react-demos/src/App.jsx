@@ -8,7 +8,8 @@ import Greeting from "./components/Greeting";
 import ProductInfo from "./components/ProductInfo";
 import ProductList from "./components/ProductList";
 import UserList from "./components/UserList";
-
+import Person from "./components/Person";
+import Product from "./components/Product";
 // First Trainning
 
 // const App = () => {
@@ -47,15 +48,26 @@ import UserList from "./components/UserList";
 // };
 
 // Showing the List by map
+// const App = () => {
+//   return (
+//     <div>
+//       <h1>USERS Info</h1>
+//       <UserList />
+//       <h1>Products Info</h1>
+//       <ProductList />
+//     </div>
+//   );
+// };
+
+// Prop Exercise
 const App = () => {
   return (
     <div>
-      <h1>USERS Info</h1>
-      <UserList />
-      <h1>Products Info</h1>
-      <ProductList />
+      <h1>Person Info</h1>
+      <Person name="Jawad" age={22} />
+      <h1>Product Info</h1>
+      <Product name="Laptop" price="$1200" />
     </div>
   );
 };
-
 export default App;
