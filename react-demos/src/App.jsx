@@ -10,6 +10,11 @@ import ProductList from "./components/ProductList";
 import UserList from "./components/UserList";
 import Person from "./components/Person";
 import Product from "./components/Product";
+import UserStatus from "./components/UserStatus";
+import Weather from "./components/Weather";
+import StyledCard from "./components/StyledCard";
+import ProfileCard from "./components/ProfileCard";
+import IconComponent from "./components/IconComponent";
 // First Trainning
 
 // const App = () => {
@@ -60,13 +65,36 @@ import Product from "./components/Product";
 // };
 
 // Prop Exercise
+// const App = () => {
+//   return (
+//     <div>
+//       <h1>Person Info</h1>
+//       <Person name="Jawad" age={22} />
+//       <h1>Product Info</h1>
+//       <Product name="Laptop" price="$1200" />
+//     </div>
+//   );
+// };
+
+//Conditional Rendering
+// const App = () => {
+//   return (
+//     <div>
+//       <UserStatus loggedIn={true} isAdmin={true} />
+//       <Greeting timeOfDay={"morning"} />
+//       <Weather temperature={20} />
+//     </div>
+//   );
+// };
+
+// Styling and Icon
+
 const App = () => {
   return (
     <div>
-      <h1>Person Info</h1>
-      <Person name="Jawad" age={22} />
-      <h1>Product Info</h1>
-      <Product name="Laptop" price="$1200" />
+      <StyledCard />
+      <ProfileCard />
+      <IconComponent />
     </div>
   );
 };
