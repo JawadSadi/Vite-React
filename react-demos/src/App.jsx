@@ -15,6 +15,10 @@ import Weather from "./components/Weather";
 import StyledCard from "./components/StyledCard";
 import ProfileCard from "./components/ProfileCard";
 import IconComponent from "./components/IconComponent";
+import Counter from "./components/Counter";
+import TodoList from "./components/TodoList";
+import Profile from "./components/Profile";
+import ShoppingList from "./components/ShoppingList";
 // First Trainning
 
 // const App = () => {
@@ -89,13 +93,29 @@ import IconComponent from "./components/IconComponent";
 
 // Styling and Icon
 
+// const App = () => {
+//   return (
+//     <div>
+//       <StyledCard />
+//       <ProfileCard />
+//       <IconComponent />
+//     </div>
+//   );
+// };
+
 const App = () => {
   return (
     <div>
-      <StyledCard />
-      <ProfileCard />
-      <IconComponent />
+      <h1>Counter</h1>
+      <Counter />
+      <h1>Todo List</h1>
+      <TodoList />
+      <h1>Profile Info</h1>
+      <Profile />
+      <h1>Shopping List</h1>
+      <ShoppingList />
     </div>
   );
 };
+
 export default App;
