@@ -22,6 +22,9 @@ import ShoppingList from "./components/ShoppingList";
 import BasicEffect from "./components/BasicEffect";
 import CounterEffect from "./components/CounterEffect";
 import FeatchData from "./components/FeatchData";
+import UseContext from "./components/UseContext";
+import UserProfile from "./components/UserProfile";
+import UpdateUser from "./components/UpdateUser";
 
 // First Trainning
 
@@ -124,12 +127,24 @@ import FeatchData from "./components/FeatchData";
 //   );
 // };
 
+// useEffect
+// const App = () => {
+//   return (
+//     <div>
+//       <BasicEffect />
+//       <CounterEffect />
+//       <FeatchData />
+//     </div>
+//   );
+// };
+
 const App = () => {
   return (
     <div>
-      <BasicEffect />
-      <CounterEffect />
-      <FeatchData />
+      <UseContext>
+        <UserProfile />
+        <UpdateUser />
+      </UseContext>
     </div>
   );
 };
