@@ -19,6 +19,10 @@ import Counter from "./components/Counter";
 import TodoList from "./components/TodoList";
 import Profile from "./components/Profile";
 import ShoppingList from "./components/ShoppingList";
+import BasicEffect from "./components/BasicEffect";
+import CounterEffect from "./components/CounterEffect";
+import FeatchData from "./components/FeatchData";
+
 // First Trainning
 
 // const App = () => {
@@ -103,17 +107,29 @@ import ShoppingList from "./components/ShoppingList";
 //   );
 // };
 
+// State with useState()
+
+// const App = () => {
+//   return (
+//     <div>
+//       <h1>Counter</h1>
+//       <Counter />
+//       <h1>Todo List</h1>
+//       <TodoList />
+//       <h1>Profile Info</h1>
+//       <Profile />
+//       <h1>Shopping List</h1>
+//       <ShoppingList />
+//     </div>
+//   );
+// };
+
 const App = () => {
   return (
     <div>
-      <h1>Counter</h1>
-      <Counter />
-      <h1>Todo List</h1>
-      <TodoList />
-      <h1>Profile Info</h1>
-      <Profile />
-      <h1>Shopping List</h1>
-      <ShoppingList />
+      <BasicEffect />
+      <CounterEffect />
+      <FeatchData />
     </div>
   );
 };
