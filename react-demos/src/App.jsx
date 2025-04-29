@@ -25,6 +25,7 @@ import FeatchData from "./components/FeatchData";
 import UseContext from "./components/UseContext";
 import UserProfile from "./components/UserProfile";
 import UpdateUser from "./components/UpdateUser";
+import CounterReducer from "./components/CounterReducer";
 
 // First Trainning
 
@@ -138,13 +139,23 @@ import UpdateUser from "./components/UpdateUser";
 //   );
 // };
 
+// UseContext(L)
+// const App = () => {
+//   return (
+//     <div>
+//       <UseContext>
+//         <UserProfile />
+//         <UpdateUser />
+//       </UseContext>
+//     </div>
+//   );
+// };
+
+// useReducer()
 const App = () => {
   return (
     <div>
-      <UseContext>
-        <UserProfile />
-        <UpdateUser />
-      </UseContext>
+      <CounterReducer />
     </div>
   );
 };
